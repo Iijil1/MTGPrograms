@@ -1,0 +1,4 @@
+1LD0LB_0LN1LC_1LB1LB_1LE---_1RA0LF_1LI0LI_1RE0RH_1RG1LI_0LJ1LF_1RK1LK_1LO1RL_0RK1LJ_0RN1RM_1RG0LO_1LP0LK_1RM1LP
+
+machine from: http://morphett.info/turing/turing.html?197640ce0f380f8a6b0a4cdd138156a0
+analysis: https://www.sligocki.com/2022/07/11/bb-16-graham.html

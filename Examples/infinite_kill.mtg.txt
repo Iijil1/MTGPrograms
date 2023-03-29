@@ -1,0 +1,14 @@
+--with 2 bishops listening to the heartbeat the opponent gains 8 life per tick
+1x Vanilla 1:Goblin <Heartbeat
+1x Bishop 3:Goblin 4:Goblin Arcbond Blast <Bishop >Heartbeat Loud
+1x Bishop 3:Goblin 4:Human <Bishop >Support
+1x Vanilla 1:Human <Support
+
+--sacrifice 3 3/3s to get a 9 damage Arcbond going, causing the opponent to lose 1 life per tick
+1x Vanilla 1:Bat Control
+1x Vanilla 1:Cat Control
+1x Vanilla 1:Rat Control
+1x Vanilla Swap
+
+--we need 9 coats so that the 1 Human created per tick can keep the bishops alive forever
+9x Coat of Arms

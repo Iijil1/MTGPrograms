@@ -1,0 +1,3 @@
+0RA0RB1LB3RA_2LD1LC------_0LC3LC3RA3LC_0LD3LE2RF3LD_0RE3RA0LB3RE_0RG0LG1RF1RH_0RF0RA0RA2RF_0RF0LC0LH1RF
+
+machine from: T. Neary and D. Woods. Small fast universal Turing machines. Theoretical Computer Science, 362(1–3):171–195, Oct. 2006

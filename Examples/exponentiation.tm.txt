@@ -1,0 +1,3 @@
+---0LF_1RC1LB_1RD1RC_1RE0LB_---0LF_0RD1LF
+111
+machine from: https://googology.fandom.com/wiki/User_blog:Deedlit11/Okay,_more_Turing_machines#Implementing_2^m

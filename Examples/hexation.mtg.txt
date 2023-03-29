@@ -1,0 +1,67 @@
+--display group ordering
+0x DG <Input >Input_Heartbeat
+0x DG <Clock_4 >Clock_4_Heartbeat
+0x DG <Clock_3 >Clock_3_Heartbeat
+0x DG <Clock_2 >Clock_2_Heartbeat
+0x DG <Clock_1 >Output
+
+--Coat of Arms
+1x Coat
+
+--Start up:
+1x Bishop 1:Boar 2:Boar 3:Boar 4:Kavu Control >Input
+1x Vanilla 1:Boar Swap
+
+--Profit Requirements
+4x Vanilla 1:Drake VIP
+1x Bishop 1:Kavu 2:Drake 3:Drake 4:Golem VIP <Output
+
+--Extra Input
+1x Vanilla 1:Kavu Arcbond Blast <Input
+1x Vanilla 1:Kavu <Input
+
+--Heartbeat to keep the Input at constant life
+1x Vanilla 1:Crab <Input_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Crab 4:Crab <Input >Input_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Crab 4:Kavu <Input >Input
+2x Bishop 1:Kavu 2:Horror 3:Crab 4:Drake <Input >Output
+
+--Part-Flooding Clock 4
+1x Dralnu 1:Horror 2:Druid
+1x Vanilla 1:Horror <Clock_4
+1x Bishop 1:Kavu 2:Horror 3:Horror 4:Horror <Input >Clock_4 Loud
+1x Bishop 1:Kavu 2:Horror 3:Horror 4:Crab <Input >Input_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Druid 4:Druid <Input >Clock_4
+
+--Heartbeat to keep Clock 4 at constant life
+1x Bishop 1:Kavu 2:Horror 3:Frog 4:Frog <Input >Clock_4_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Frog 4:Druid <Input >Clock_4
+
+--Part-Flooding Clock 3
+1x Dralnu 1:Vampire 2:Warrior
+1x Vanilla 1:Vampire <Clock_3
+1x Bishop 1:Kavu 2:Horror 3:Vampire 4:Vampire <Input >Clock_3 Loud
+1x Bishop 1:Kavu 2:Horror 3:Vampire 4:Frog <Input >Clock_4_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Warrior 4:Warrior <Input >Clock_3
+
+--Heartbeat to keep Clock 3 at constant life
+1x Bishop 1:Kavu 2:Horror 3:Ape 4:Ape <Input >Clock_3_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Ape 4:Warrior <Input >Clock_3
+
+--Part-Flooding Clock 2
+1x Dralnu 1:Goblin 2:Zombie
+1x Vanilla 1:Goblin <Clock_2
+1x Bishop 1:Kavu 2:Horror 3:Goblin 4:Goblin <Input >Clock_2 Loud
+1x Bishop 1:Kavu 2:Horror 3:Goblin 4:Ape <Input >Clock_3_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Zombie 4:Zombie <Input >Clock_2
+
+--Heartbeat to keep Clock 2 at constant life
+1x Bishop 1:Kavu 2:Horror 3:Cat 4:Cat <Input >Clock_2_Heartbeat
+1x Bishop 1:Kavu 2:Horror 3:Cat 4:Zombie <Input >Clock_2
+
+--Part-Flooding Clock 1
+1x Dralnu 1:Human 2:Golem
+1x Vanilla 1:Human <Clock_1
+1x Bishop 1:Kavu 2:Horror 3:Human 4:Human <Input >Clock_1
+1x Bishop 1:Kavu 2:Horror 3:Human 4:Cat <Input >Clock_2_Heartbeat
+2x Bishop 1:Kavu 2:Horror 3:Golem 4:Golem <Input >Clock_1

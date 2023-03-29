@@ -1,0 +1,26 @@
+--display group ordering
+0x DG <Input >Heartbeat
+0x DG <Clock >Output
+
+--Coat of Arms
+1x Coat
+
+--Start up:
+1x Bishop 1:Boar 2:Boar 3:Boar 4:Kavu Control >Input
+1x Vanilla 1:Boar Swap
+
+--Profit Requirements
+4x Vanilla 1:Drake VIP
+1x Bishop 1:Kavu 2:Drake 3:Drake 4:Golem VIP <Output
+
+--Heartbeat Clock
+1x Bishop 1:Kavu 2:Kavu 3:Cat 4:Cat <Input >Heartbeat Arcbond Blast
+1x Bishop 1:Kavu 2:Drake 3:Cat 4:Kavu <Input >Input
+2x Bishop 1:Kavu 2:Drake 3:Cat 4:Drake <Input >Output
+
+--Part-Flooding Clock
+1x Dralnu
+1x Vanilla 1:Goblin <Clock
+1x Bishop 1:Kavu 2:Drake 3:Goblin 4:Goblin <Input >Clock Loud
+1x Bishop 1:Kavu 2:Drake 3:Goblin 4:Cat <Input >Heartbeat
+2x Bishop 1:Kavu 2:Drake 3:Zombie 4:Zombie <Input >Clock

@@ -1,0 +1,11 @@
+1x Coat of Arms
+
+--we sacrifice a 1/3 bishop to get 1 damage arcbond ticks.
+1x Bishop 1:Ape 2:Ape Control
+1x Vanilla Swap
+
+--every tick of arcbond damage the heartbeat angel will die and be replaced by on of the bishops listening for that.
+--the second bishop produces a human every tick. With Coat of Arms that keeps the bishops alife forever.
+1x Vanilla 1:Angel <Heartbeat
+1x Bishop 4:Angel Arcbond Blast <Bishop >Heartbeat Loud
+1x Bishop 4:Human <Bishop >Support
