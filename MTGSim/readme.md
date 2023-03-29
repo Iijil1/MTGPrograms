@@ -54,6 +54,7 @@ We print short information about the display groups defined in the input. We sho
 # Boardstate requirements
 
 To start a useful computation we need exactly one creature with the Swap keyword. Exactly one other creature needs to have the Blast keyword. That creature should also have the Arcbond keyword. More creatures can have Arcbond. We also need some creatures with Control to set the size of the Souldblast.
+
 To profit from a computation we need 4 Vanillas to survive. Those are the targets of the remaining Audacious swaps on the stack. We also need a Bishop that creates Golems to survive. Mark these creatures with VIP.
 
 The free Vanillas in the cost computation are the 5 Vanillas that are targeted by Audacious Swap copies, one of which gets exiled to cast Soulblast. The 6th free Vanilla is the target of the original Audacious Swap, that didn't get a copy tergeting it.
