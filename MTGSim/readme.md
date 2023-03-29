@@ -1,6 +1,6 @@
 A simulator to run the mandatory actions in the very specific MTG boardstate that is set up by the champion 14 card deck.
 
-Flags:<br>
+# Flags:<br>
 -c<br>
 -- Calculate the cost of the boardstate in terms of Audacious Swap casts required to set it up, instead of simulating it.<br>
 -l<br>
@@ -8,7 +8,7 @@ Flags:<br>
 
 Input the boardstate via stdin.
 
-Input format:
+# Input format:
 
 Every line describes an object on the board.
 
@@ -47,5 +47,14 @@ Example Lines:
 1x Bishop Loud<br>
 -- Whenever this bishop creates tokens during the simulation a summary of the boardstate will be printed.
 
-Boardstate summaries:<br>
+# Boardstate summaries:
+
 We print short information about the display groups defined in the input. We show the number of creatures in the group and the minimum life (toughness - damage) among creatures in the group.
+
+# Boardstate requirements
+
+To start a useful computation we need exactly one creature with the Swap keyword. Exactly one other creature needs to have the Blast keyword. That creature should also have the Arcbond keyword. More creatures can have Arcbond. We also need some creatures with Control to set the size of the Souldblast.
+To profit from a computation we need 4 Vanillas to survive. Those are the targets of the remaining Audacious swaps on the stack. We also need a Bishop that creates Golems to survive. Mark these creatures with VIP.
+
+The free Vanillas in the cost computation are the 5 Vanillas that are targeted by Audacious Swap copies, one of which gets exiled to cast Soulblast. The 6th free Vanilla is the target of the original Audacious Swap, that didn't get a copy tergeting it.
+
